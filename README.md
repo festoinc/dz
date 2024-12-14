@@ -27,3 +27,22 @@
 | 8.0 | Training and Documentation |  |  |
 | 8.1 |  | User Training | • Staff training materials<br>• Admin user training<br>• Customer support training |
 | 8.2 |  | Documentation | • System documentation<br>• User manuals<br>• API documentation<br>• Maintenance guides |
+
+# Constrains
+
+
+
+| Category | ID | Constraint Type | Specific Constraints |
+|----------|------|-----------------|---------------------|
+| Technical | T1.0 | System Architecture | • Must be responsive across all devices (desktop/mobile)<br>• Must support concurrent user access<br>• Must implement real-time order tracking<br>• Must maintain stable performance during peak hours |
+| Technical | T2.0 | Integration Requirements | • Must integrate with payment processing systems<br>• Must connect with inventory management system<br>• Must support email/SMS notification services<br>• Must enable third-party delivery service integration |
+| Technical | T3.0 | Performance | • Page load time must not exceed 3 seconds<br>• Must handle minimum 100 concurrent users<br>• Must process orders within 30 seconds<br>• Must maintain 99.9% uptime during business hours |
+| Security | S1.0 | Data Protection | • Must implement end-to-end encryption<br>• Must comply with PCI-DSS standards<br>• Must secure all customer data<br>• Must implement regular backup systems |
+| Security | S2.0 | Authentication | • Must implement secure user authentication<br>• Must support role-based access control<br>• Must enforce password policies<br>• Must implement session management |
+| Security | S3.0 | Compliance | • Must comply with GDPR/CCPA requirements<br>• Must maintain audit logs<br>• Must implement data retention policies<br>• Must enable secure data deletion |
+| Business | B1.0 | Operations | • Must support peak-hour operations (6AM-10AM)<br>• Must allow real-time menu updates<br>• Must enable order modification within time window<br>• Must support multiple order types (pickup/delivery) |
+| Business | B2.0 | Payment Processing | • Must support multiple payment methods<br>• Must process refunds automatically<br>• Must generate detailed transaction reports<br>• Must handle tax calculations |
+| Business | B3.0 | Inventory | • Must track inventory in real-time<br>• Must generate low-stock alerts<br>• Must support automatic reordering<br>• Must track ingredient usage |
+| Time | TM1.0 | Response Times | • Order confirmation within 1 minute<br>• Payment processing within 30 seconds<br>• Inventory updates within 5 minutes<br>• Alert notifications within 2 minutes |
+| Time | TM2.0 | System Maintenance | • Scheduled maintenance only during off-peak hours<br>• Updates must be completed within maintenance window<br>• Rollback capability within 30 minutes<br>• Maximum system downtime of 2 hours per month |
+| Resource | R1.0 | System Resources | • Must operate within cloud service budget<br>• Must optimize database storage usage<br>• Must minimize bandwidth consumption<br>• Must support scaling during peak times |
